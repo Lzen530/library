@@ -1,13 +1,13 @@
-import BookCard from '@/components/BookCard';
+﻿import BookCard from '@/components/BookCard';
 
-export default function GenreSection({ label, books }) {
+export default function GenreSection({ label, books, onToggleRead }) {
   return (
     <section className="genre-section">
       <h2 className="genre-title">{label} ({books.length})</h2>
       {books.length > 0 ? (
         <div className="book-grid">
           {books.map((book) => (
-            <BookCard key={book.id} {...book} />
+            <BookCard key={book.id} {...book} onToggleRead={() => onToggleRead(book.id)} />
           ))}
         </div>
       ) : (

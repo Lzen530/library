@@ -190,3 +190,65 @@ h1 {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+.shelf-controls {
+  display: grid;
+  gap: 8px;
+  margin-top: 18px;
+  font-size: 14px;
+}
+
+.shelf-controls label {
+  font-weight: 700;
+}
+
+.shelf-controls input,
+.genre-tabs button,
+.book-status {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  font-family: inherit;
+}
+
+.shelf-controls input {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: inherit;
+}
+
+.genre-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.genre-tabs button,
+.book-status {
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+.genre-tabs button[aria-pressed='true'] {
+  border-color: var(--navy);
+  background: var(--navy);
+  color: white;
+  font-weight: 700;
+}
+
+.book-status {
+  align-self: flex-start;
+  margin-top: 6px;
+}
+
+.book-status-read {
+  background: #ecf7ee;
+}
+
+.book-status-reading {
+  background: #edf3fb;
+}
+
+.shelf-controls .empty-message {
+  display: block;
+}

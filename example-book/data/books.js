@@ -1,8 +1,8 @@
 const books = [
   {
     id: 'almond',
-    title: '아몬드',
-    author: '손원평',
+    title: '이방인',
+    author: '알베르 카뮈',
     genre: 'novel',
     rating: 5,
     isRead: true,
@@ -10,8 +10,8 @@ const books = [
   },
   {
     id: 'convenience-store',
-    title: '불편한 편의점',
-    author: '김호연',
+    title: '데미안',
+    author: '헤르만 헤세',
     genre: 'novel',
     rating: 4,
     isRead: true,
@@ -19,8 +19,8 @@ const books = [
   },
   {
     id: 'dream-store',
-    title: '달러구트 꿈 백화점',
-    author: '이미예',
+    title: '모비 딕',
+    author: '허먼 멜빌',
     genre: 'novel',
     rating: 3,
     isRead: false,
@@ -28,8 +28,8 @@ const books = [
   },
   {
     id: 'world-of-children',
-    title: '어린이라는 세계',
-    author: '김소영',
+    title: '유리, 아이러니 그리고 신',
+    author: '앤 카슨 외',
     genre: 'essay',
     rating: 5,
     isRead: true,
@@ -37,8 +37,8 @@ const books = [
   },
   {
     id: 'clean-code',
-    title: '클린 코드',
-    author: '로버트 C. 마틴',
+    title: '바이브 코딩 도전기: 내가 쓰려고 만든 앱이 앱 스토어 1위까지',
+    author: '김솔',
     genre: 'it',
     rating: 4,
     isRead: false,
@@ -46,8 +46,8 @@ const books = [
   },
   {
     id: 'javascript-deep-dive',
-    title: '모던 자바스크립트 Deep Dive',
-    author: '이웅모',
+    title: '진짜 쓰는 실무 엑셀',
+    author: '오빠두(전진권)',
     genre: 'it',
     rating: 5,
     isRead: false,
@@ -55,8 +55,8 @@ const books = [
   },
   {
     id: '혼자-공부하는-파이썬',
-    title: '혼자 공부하는 파이썬',
-    author: '윤인성',
+    title: '2027 시나공 컴퓨터활용능력 2급 필기 기본서',
+    author: '길벗알앤디',
     genre: 'it',
     rating: 3,
     isRead: true,
